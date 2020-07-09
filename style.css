@@ -1,0 +1,63 @@
+body{
+    background-image: linear-gradient(#1184e8,#3c89d0,#7ecfd4,#88c7dc);
+    
+}
+
+@media only screen and (max-width: 320px) {
+    body{
+        background-image: linear-gradient(#1184e8,#3c89d0,#7ecfd4,#88c7dc);
+        
+    }
+    .stopwatch{
+ font-size: 40px !important;
+}
+  }
+  @media only screen and (max-width: 320px) {
+    .timeval{
+        margin: 4px !important;
+        font-size: 15px !important;
+    }
+      }
+
+  .stopwatch{
+    text-align: center; 
+    font-size: 60px
+  }
+
+.time{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.time1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2px !important;
+}
+.timeone{ 
+    border: 2px solid black;
+    padding: 10px 20px 10px 20px  !important;
+    margin: 8px !important;
+    font-size: 40px !important;
+    background-color: black;
+    color: white;
+    border-radius: 6px !important;
+}
+.timeval{
+    margin: 4px !important;
+    font-size: 30px !important;
+}
+.time2{
+    text-align: center;
+    margin-top: 20px !important;
+    margin-bottom: 35% !important;
+}
+.time2one{
+    padding: 10px !important;
+    font-size: 30px !important;
+    background-image: linear-gradient(brown, yellow, pink ) ;
+    border-radius: 6px !important;
+    margin-right: 10px !important;
+    outline: none;
+}
